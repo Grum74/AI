@@ -1,9 +1,7 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn import preprocessing
-from sklearn.svm import LinearSVC, SVC
+from sklearn.svm import SVC
 from sklearn.multiclass import OneVsOneClassifier
-# from sklearn import cross_validation
 from sklearn.model_selection import train_test_split, cross_val_score
 
 input_file = 'income_data.txt'
